@@ -1,0 +1,24 @@
+# Federated plugin monorepo created by `zfa package create-plugin` (issue #1604).
+name: zuraffa_wasm
+description: >-
+  WebAssembly for the Zuraffa ecosystem: a pure-Dart port over an injected platform channel with federated android, ios, and macos adapters.
+version: 0.1.0
+homepage: https://zuraffa.com
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  zuraffa: ^6.2.2
+
+dev_dependencies:
+  lints: ^4.0.0
+  test: ^1.25.0
+
+repository: https://github.com/arrrrny/zuraffa_wasm
+issue_tracker: https://github.com/arrrrny/zuraffa_wasm/issues
+
+topics:
+  - wasm
+  - clean-architecture
+  - zuraffa
